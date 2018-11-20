@@ -113,6 +113,10 @@
 	margin: 0px;
 }
 
-#footer {
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	background-color: #3b5998;
+
 }

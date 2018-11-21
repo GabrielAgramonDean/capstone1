@@ -90,7 +90,9 @@
 }
 
 #contact {
-	margin-top: 60px;
+	margin-top: 50px;
+	overflow: auto;
+	text-align: justify-all;
 }
 
 #contactform {
@@ -124,5 +126,34 @@
 #divorice-image {
 	width: 150px;
 	height: 150px;
+	float: left;
+}
+
+#jumbotron-about {
+	background-color: #141414;
+	height: 100vh;
+	border-radius: 0;
+	margin-bottom: 0px;
+}
+
+#landing-about {
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.real-image-right {
+	float: right;
+	padding: 10px;
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+.real-image-left {
 	float: left;
 }

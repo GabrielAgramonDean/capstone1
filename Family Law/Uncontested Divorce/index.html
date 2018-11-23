@@ -8,12 +8,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
-	<title>Family Law | Uncontestedd Divorce</title>
+	<title>Gabriel | Family Law</title>
 </head>
 
 <body id="myPage" data-spy="sroll" data-target="#nav" data-offset="60" style="background-color:#E3E8E7">
 	<!-- Main Navigation -->
-	<nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+	<nav id="nav" class="navbar navbar-inverse navbar-fixed-top" style="background-color:#293879">
 	  <div class="container">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -21,9 +21,9 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>                        
 	      </button>
-	      <a class="navbar-brand" href="../../home.html">GLDean</a>
+	      <a class="navbar-brand" href="../../home.html"><img id="logo" src="../../assets/images/banner.logo.png" style="margin-top:-20px">
 	    </div>
-	    <div class="collapse navbar-collapse" id="myNavbar">
+	    <div class="collapse navbar-collapse" id="myNavbar"><p href="#">Chicago,IL</p>
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="../../home.html">Home</a></li>
 	        <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Family Law</a>
@@ -58,48 +58,43 @@
 	        	</ul>
 	        </li>
 	        <li><a href="../../home.html#Attorney">Attorney Profile</a></li>
-	        <li><a href="https://egov.uscis.gov/casestatus/landing.do">Case Status</a></li>
+	        <li><a href="https://egov.uscis.gov/casestatus/landing.do">Case Status</a>
 	      </ul>
 	    </div>
 	  </div>
 	</nav>
 
 	<!-- Start of Contact Navigator -->
-	<div class="row">
+
+	<div class="container">
+			<div class="row">
 			<header class="col-12 col-md-12 col-lg-12">
 				<h1 id="contact" class="text-center">Uncontested Divorce</h1>
 			</header>
 
-			<div class="col-12 col-md-6 col-lg-4" style="padding-left: 20px;padding-right: 50px;">
+			<div class="col-12 col-md-6 col-lg-4">
 				<h1 class="text-center">Schedule An Appointment?</h1>
-					<h3 style="padding-left: 25px">Contact Us Today!</h3>
-				<form id="contactform">
-					<div class="form-group">
-						<label for="name">Name</label>
-						<input id="name" class="form-control" type="text" placeholder="Name">
-					</div>
+				<br>
+				<div class="form-style-2">
+				<div class="form-style-2-heading">Provide your information</div>
+				<form id="border" action="" method="post">
+				<label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+				<label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+				<label><span>Telephone</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+				<label for="field4"><span>Regarding</span><select name="field4" class="select-field">
+				<option value="Appointment">Appointment</option>
+				<option value="Case Update">Case Update</option>
+				<option value="Partnership">Partnership</option>
+				</select></label>
+				<label for="field5"><span>Message Here... <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
 
-					<div class="form-group">
-						<label for="email">Email</label>
-						<input id="email" class="form-control" type="text" placeholder="Email">
-					</div>
-
-					<div class="form-group">
-						<label for="number">Number</label>
-						<input id="number" class="form-control" type="number" placeholder="Number">
-					</div> <!-- End of Contact Group -->
-
-					<div class="form-group">
-						<label for="message"></label>
-						<textarea id="message" class="form-control" placeholder="Enter Your Message Here"></textarea>
-					</div>
-					<button class="btn btn-block btn success">Submit</button>
-				
+				<label><span> </span><input type="submit" value="Submit" /></label>
 				</form>
+				</div>
 			</div>
 		
 
-		<div id="contact" class="col-12 col-md-6 col-lg-8" style="padding-left: 40px;padding-right: 40px;">
+		<div id="contact" class="col-12 col-md-6 col-lg-8">
 			  <img src="../../assets/images/family/divorce.jpg" style="width:80%">
 			  <h3><kbd>"Uncontested divorce is where the parties come to an agreement regarding all of the four major items related to divorce".</kbd></h3><br>
 			  <p class="text-justify">Often, when people call our office, they will state that the divorce is uncontested just because the parties agree that they both want a divorce. While it may make the process easier if both parties agree to this ultimate outcome, this is not what attorneys are referring to when they ask whether a matter is uncontested. Instead, an uncontested divorce means that the parties have come to an agreement regarding all of the four major items related to a divorce:</p>
@@ -126,7 +121,9 @@
 			  <br>
 
 		</div>
-	</div>		
+	</div>	
+	</div> <!-- End of Container -->
+	
 	<footer class="footer navbar-inverse fixed-bottom">
 		<p class="text-center mb-0 p-2">Gabriel Dean | Tuitt Coding Boothcamp</p>	
 	</footer>
